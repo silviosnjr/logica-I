@@ -1,0 +1,30 @@
+<meta charset="UTF-8">
+
+<h1>Testando FUNÇÕES</h1>
+
+<script>
+
+    function pulaDuasLinhas() {
+        document.write("<br>");
+        document.write("<br>");
+	}
+
+	function escreveIdade (nome, ano, nascimento){
+		document.write(nome + " tem " + (ano - nascimento) + " anos");
+	}
+
+	var ano = 2021;
+
+    escreveIdade ("Flávio", ano, 1977);
+
+    pulaDuasLinhas();
+
+    escreveIdade ("Joaquim", ano, 1996);
+
+    pulaDuasLinhas();
+
+    escreveIdade ("Barney", ano, 1976);
+
+    pulaDuasLinhas();
+
+</script>
